@@ -11,7 +11,10 @@ import SwiftUI
 struct RoletteApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                HomeView()
+            }
         }
     }
 }
+
